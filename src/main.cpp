@@ -4,13 +4,6 @@
 
 #define PIR_PIN 14
 
-// MAC address of Receiver ESP32 (fill this with your receiver’s MAC)
-
-// Station MAC: C0:5D:89:DD:4E:24
-// SoftAP MAC: C0:5D:89:DD:4E:25
-// Bluetooth MAC: C0:5D:89:DD:4E:26
-// Ethernet MAC: C0:5D:89:DD:4E:27
-
 uint8_t receiverMAC[] = {0xC0, 0x5D, 0x89, 0xDD, 0x4E, 0x24}; // Replace with your receiver's MAC address
 
 typedef struct Message
